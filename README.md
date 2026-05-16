@@ -9,7 +9,7 @@ Generating strand-based hairstyle from monocular video with head motion.
 <p align="center">
   <img src="imgs/baslines_compare.png" width="90%">
 </p>
-
+Comparison with prior single-view and commercial baselines. Our method better preserves hairstyle-specific structure and improves consistency in side and partially occluded regions.
 
 ---
 
