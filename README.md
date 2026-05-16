@@ -2,7 +2,14 @@
 
 Official project page for:
 
-**Vid2Haircut: 3D Strand-Based Hairstyle Reconstruction from Video**  
+👩 **Vid2Haircut: 3D Strand-Based Hairstyle Reconstruction from Video**  
+
+Generating strand-based hairstyle from monocular video with head motion.
+
+<p align="center">
+  <img src="imgs/baslines_compare.png" width="90%">
+</p>
+
 
 ---
 
