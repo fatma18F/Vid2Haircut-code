@@ -1,10 +1,12 @@
 # Vid2Haircut
 
-Official project page for:
+## 👩 Vid2Haircut: 3D Strand-Based Hairstyle Reconstruction from Video [Eurographics 2026]
 
-👩 **Vid2Haircut: 3D Strand-Based Hairstyle Reconstruction from Video**
+*Generating strand-based 3D hairstyles from monocular videos with natural head motion.*
 
-Generating strand-based 3D hairstyles from monocular videos with natural head motion.
+[[Paper](https://diglib.eg.org/items/b901f87c-a9fd-4ff6-964f-c8dd10e03fe1)] [[Project Page](https://fatma18f.github.io/Vid2Haircut/)] 
+
+
 
 <p align="center">
   <img src="imgs/baslines_compare.png" width="90%">
@@ -14,7 +16,7 @@ Generating strand-based 3D hairstyles from monocular videos with natural head mo
 Comparison with single-view and commercial baselines. Our method better preserves hairstyle-specific structure and improves consistency in side and partially occluded regions.
 </p>
 
----
+
 
 ## Results
 
@@ -52,6 +54,25 @@ Example scripts are provided in the `scripts/` folder.
 ```
 
 ---
+
+## Acknowledgements
+
+This project builds on [Im2Haircut](https://github.com/Vanessik/Im2Haircut), which reconstructs strand-based 3D hair from single images.
+
+We also acknowledge the following projects used by Im2Haircut and/or our pipeline:
+
+- [HairStep](https://paulyzheng.github.io/research/hairstep/) for direction map estimation.
+- [PERM](https://github.com/c-he/perm) for the PCA hair basis implementation.
+- [NeuS](https://github.com/Totoro97/NeuS) for learning the head signed distance function.
+- [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch) for camera estimation.
+- [GaussianHaircut](https://github.com/eth-ait/GaussianHaircut) for Gaussian-splatting-based hairstyle rasterization.
+- [ml-depth-pro](https://github.com/apple/ml-depth-pro) for depth estimation.
+- [VOODOO3D-official](https://github.com/mbzuai-metaverse/VOODOO3D-official) for the transformer architecture.
+
+
+### License
+
+This code is based on Im2Haircut. Please refer to the original Im2Haircut license and the licenses of its dependencies.
 
 ### Citation
 
